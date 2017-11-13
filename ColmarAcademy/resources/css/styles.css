@@ -1,0 +1,454 @@
+html{
+  font-size: 16px;
+  font-family: Helvetica;
+  color: dimgray;
+}
+header{
+  display: flex;
+  position: fixed;
+  height: 4rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  top: 0;
+}
+
+header
+.Logo {
+  display: flex;
+  height: 2rem;
+  margin-left: 1.5rem;
+  align-items: center;
+}
+
+.Logo ul{
+  display: flex;
+  align-items: center;
+}
+
+.Logo li{
+  font-size: 1.5rem;
+  color:gray;
+}
+
+.Logo li:first-child{
+  color: dimgray;
+  font-weight: bold;
+}
+
+nav{
+  margin-right: 1.5rem;
+}
+
+nav a{
+  margin-left: 1rem;
+  text-decoration: none;
+  color: dimgray;
+  font-weight: bold;
+}
+
+.MobileMenu{
+  display: none;
+}
+
+.Banner{
+  display:flex;
+  background-color: lightgray;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.Banner img{
+  width:60%;
+  margin: 2rem 1.5rem;
+
+}
+
+.BannerText{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.BannerText h1{
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.BannerText h3{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.BannerBtn{
+  display: flex;
+  width: 100%;
+}
+
+.BannerBtn a{
+  font-size: 1.5rem;
+  background-color: dimgray;
+  color: white;
+  text-decoration: none;
+  width:100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  margin-right: 1.5rem;
+}
+
+.Info{
+  display: flex;
+}
+
+.MainInfo{
+  width: 60%;
+  margin: 2rem 1.5rem;
+
+}
+
+.InfoMainImg img{
+  width:100%;
+  margin-bottom: 2rem;
+}
+
+.InfoMainText h2{
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1.5rem;
+}
+
+.InfoMainText h4{
+  font-weight: bold;
+  margin-bottom: 2rem;
+
+}
+
+.InfoMainText p{
+  line-height: 1.5;
+}
+
+.InfoOther{
+  width:40%;
+  margin-top: 2rem;
+  border-left: 1px;
+  border-color: black;
+  border-width: 5px;
+}
+
+.Orientation{
+  display:flex;
+  align-items: center;
+  line-height: 2rem;
+}
+
+.Campus{
+  display:flex;
+  align-items: center;
+  line-height: 2rem;
+}
+
+.GuestLecture{
+  display:flex;
+  align-items: center;
+  line-height: 2rem;
+  background-color: lightgray;
+  margin-bottom: 1rem;
+}
+
+.InfoImg{
+  width:35%;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.InfoImg img{
+  height: auto;
+  width:100%;
+}
+
+.InfoText{
+  width:65%;
+}
+
+.InfoText h2{
+  font-size: 2rem;
+}
+
+.InfoText p{
+  margin: 0.5rem 0;
+}
+
+.InfoText a{
+  text-decoration: none;
+}
+
+.Campus .InfoImg img{
+  margin-top: 1rem;
+}
+
+.GuestLecture .InfoImg img{
+  margin-top: 1rem;
+}
+
+.InfoImgMobile{
+  display: none;
+}
+
+.StartLearning{
+  display: block;
+  background-color: lightgray;
+  justify-content:center;
+  margin: 3rem 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.TopSection h1{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.BottomSection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.Course{
+    margin: 1rem;
+    background-color: white;
+}
+
+.Course h2{
+  margin: 1rem 0 0 1rem;
+}
+
+.Course h4{
+  margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.Course p{
+  margin: 0.5rem 0 1.5rem 1rem;
+}
+
+.MiniClasses{
+  display: none;
+}
+
+.Thesis{
+  display: flex;
+  flex-direction: column;
+}
+
+.ThesisHeading{
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.ThesisHeading h1{
+  color: dimgray;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.ThesisExhibits{
+  display: flex;
+}
+
+.Videos{
+  width:60%;
+  margin: 0 1.5rem ;
+}
+
+.Videos h2{
+  margin-top: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: dimgray;
+}
+
+.Videos p{
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+video{
+  width: 100%;
+}
+
+.Exhibits{
+  width:40%;
+}
+
+.Fisma{
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.Fisma img{
+  width: 35%;
+  margin: 1rem;
+}
+
+.Fisma h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.NowAndThen{
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.NowAndThen img{
+  width: 35%;
+  margin: 1rem;
+}
+
+.NowAndThen h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1.5rem;
+  font-weight: bold;
+}
+footer a{
+  margin: 0 0.5rem;
+  color: dimgray;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 680){
+  header{
+    display:none;
+  }
+   .MobileMenu{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: white;
+  }
+  .Banner{
+    display:block;
+    margin: 0;
+  }
+  .Banner img{
+    width:100%;
+    margin: 0 0 0 0;
+  }
+
+  .BannerText {
+    width: 100%;
+  }
+
+  .BannerText h1{
+    margin: 2rem 1rem 0 1rem;
+  }
+  .BannerText h3{
+    margin: 2rem 1rem 0 1rem;
+  }
+  .BannerBtn a{
+    margin: 1.5rem 1rem 2rem 1rem;
+  }
+
+  .MainInfo{
+    display: none;
+  }
+  .InfoOther{
+    width: 100%;
+    margin: 0;
+  }
+  .InfoImg{
+    display: none;
+  }
+  .InfoImgMobile{
+    display: block;
+    margin: 1rem;
+  }
+  .InfoImgMobile img{
+    width:100%;
+  }
+  .InfoText{
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .InfoText h2{
+    margin-left: 2rem;
+  }
+  .InfoText p{
+    margin-left: 2rem;
+  }
+  .InfoText a{
+    margin-left: 2rem;
+  }
+  .Orientation{
+    display: block;
+  }
+  .Campus{
+    display: block;
+  }
+  .GuestLecture{
+    display: block;
+    background-color: white;
+  }
+
+  .StartLearning{
+    background-color: white;
+  }
+
+  .StartLearning{
+    margin: 0;
+  }
+  .TopSection{
+    margin-bottom: 1rem;
+  }
+
+  .BottomSection{
+    display:none;
+  }
+  .MiniClasses{
+    display: block;
+  }
+  .MiniCourse{
+    background-color: lightgray;
+    font-weight: bold;
+    padding:1rem 0 1.5rem 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .Exhibits{
+    display: none;
+  }
+  #Terms{
+    display: none;
+  }
+  .Videos{
+    width:100%;
+    margin: 0;
+  }
+  .Videos h2{
+    display: none;
+  }
+  .Videos p{
+    display: none;
+  }
+}
